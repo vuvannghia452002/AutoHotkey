@@ -1,6 +1,4 @@
-Cài đặt contents/AutoHotkey_2.0.11_setup.exe từ
-
-https://www.autohotkey.com/download
+Cài đặt contents/AutoHotkey_2.0.11_setup.exe từ https://www.autohotkey.com/download
 
 Nhấn Window + R nhập nội dung
 
