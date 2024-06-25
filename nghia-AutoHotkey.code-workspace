@@ -1,12 +1,14 @@
 {
-	"folders": [
-	  {
-		"path": "."
-	  },
-	  {
-		"path": "contents"
-	  }
-	],
-	"settings": {}
-  }
-  
+  "extensions": {
+    "recommendations": ["cweijan.vscode-autohotkey-plus"]
+  },
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "contents"
+    }
+  ],
+  "settings": {}
+}
