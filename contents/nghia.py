@@ -8,6 +8,9 @@ print(f"🚀 {startup}")
 nghia_ahk = os.path.join(os.getcwd(), "nghia.ahk")
 print(f"🚀 {nghia_ahk}")
 
+
+ hướng dẫn   python  
+sử  dụng import subprocess mklink
 # Tạo liên kết tượng trưng
 try:
     os.symlink(nghia_ahk, os.path.join(startup, "nghia.ahk"))
