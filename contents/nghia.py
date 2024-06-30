@@ -26,15 +26,13 @@ if is_admin():
     # Tạo liên kết
     try:
         subprocess.run(['mklink', nghia_ahk_link, nghia_ahk], shell=True, check=True)
-        print(f"Tạo liên kết tượng trưng thành công: {nghia_ahk_link}")
+        print(f"Tạo liên kết thành công: {nghia_ahk_link}")
     except subprocess.CalledProcessError as e:
-        print(f"Lỗi khi tạo liên kết tượng trưng: {e}")
+        print(f"Lỗi khi tạo liên kết: {e}")
     except FileExistsError:
-        print("Liên kết tượng trưng đã tồn tại")
+        print("Liên kết đã tồn tại")
     except OSError as e:
-        print(f"Lỗi hệ thống khi tạo liên kết tượng trưng: {e}")
+        print(f"Lỗi hệ thống khi tạo liên kết: {e}")
 else:
-    # Chạy lại script với quyền quản trị
-    print("Chạy lại script với quyền quản trị")
     ctypes.windll.shell32.ShellExecuteW(
         None, "runas", sys.executable, " ".join(sys.argv), None, 1)
