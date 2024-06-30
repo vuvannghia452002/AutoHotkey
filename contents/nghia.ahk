@@ -2,10 +2,22 @@
 Capslock::Shift ; CapsLock giống Shift
 ; ====================================================================================================================================
 F1::Run, https://chat.openai.com ; Bấm F1 mở ChatGPT
-
+; ====================================================================================================================================
 ; F3::Run, python C:\Users\vvn20206205\Desktop\github\nghia-wifi-proxy\main.py 
 F3::Run, python C:\Users\vvn20206205\Documents\github-ai\nghia-wifi-proxy\main.py
-; F3::Send {F2}
+
+
+
+
+ hướng dẫn   AutoHotkey thao tác với Destop
+ c:\Users\vvn20206205\Desktop\github\nghia-wifi-proxy\contents\nghia-wifi-proxy.py
+
+
+
+
+; ====================================================================================================================================
+
+
 
 ; F6:: Run, c:\Users\vvn20206205\Desktop\github\20232\DH_Crawl_Scrapy\DH_Crawl_Scrapy.code-workspace
 ; F6:: Run, C:\Users\vvn20206205\Desktop\dh-bi-aws-crawl\dh-bi-aws-crawl.code-workspace
