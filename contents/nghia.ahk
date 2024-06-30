@@ -11,7 +11,7 @@ F3::Run, python C:\Users\vvn20206205\Documents\github-ai\nghia-wifi-proxy\main.p
 ; F6:: Run, C:\Users\vvn20206205\Desktop\dh-bi-aws-crawl\dh-bi-aws-crawl.code-workspace
 ; F6:: Run, C:\Users\vvn20206205\Desktop\github\20232\data-warehouse-crawl\data-warehouse-crawl.code-workspace
 ; F6:: Run,   C:\Users\vvn20206205\Desktop\github\20232\Kho-Crawl\Kho-Crawl.code-workspace
-F6:: Run, C:\Users\vvn20206205\Desktop\Kho-Crawl\Kho-Crawl.code-workspace
+; F6:: Run, C:\Users\vvn20206205\Desktop\Kho-Crawl\Kho-Crawl.code-workspace
 
 ; F8:: Run, https://translate.google.com/?hl=vi&sl=en&tl=vi&text=%clipboard%
 ; ====================================================================================================================================
